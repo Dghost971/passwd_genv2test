@@ -7,7 +7,7 @@ special_char=list("!@#$%&()£")
 characters = list(string.ascii_letters+string.digits+"!@#$%&()£")
 
 def generate_random_passwd():
-    length=int(input("Entrer la taille du mot de passe: "))
+    length=int(input("Entrer la taille du mot de passe voulu : "))
     alphabets_count=int(input("Entrer le nombre de lettres que vous voulez: "))
     digits_count=int(input("Entrer le nombre de chiffres: "))
     special_char_count=int(input("Entrer le nombre de character spéciaux: "))
